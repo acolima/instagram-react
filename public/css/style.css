@@ -121,7 +121,6 @@ body {
   height: 66px;
   width: 66px;
   background-image: url('/assets/img/story-circle.svg');
-  
 }
 
 .story .imagem img {
@@ -174,13 +173,15 @@ body {
   width: 32px;
   height: 32px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .post .usuario, .post .topo img, .post .fundo img, .post ion-icon, .post strong {
   cursor: pointer;
 }
 
-.post .conteudo img {
+.post .conteudo img,
+.post .conteudo video {
   width: 100%;
 }
 
@@ -206,6 +207,7 @@ body {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .post:last-child {
@@ -265,6 +267,7 @@ body {
 .sidebar .sugestoes img {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
 .sidebar .sugestoes .seguir {

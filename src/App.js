@@ -1,6 +1,6 @@
-import Corpo from "./Components/Corpo";
-import FundoMobile from "./Components/FundoMobile";
-import Navibar from "./Components/Navibar";
+import Corpo from "./Componentes/Corpo";
+import FundoMobile from "./Componentes/FundoMobile";
+import Navibar from "./Componentes/Navibar";
 
 
 export default function App(){
