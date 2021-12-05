@@ -1,10 +1,12 @@
 export default function Sidebar(){
   return (
     <div class="sidebar">
-      <Usuario imagem="caapeeps" nomeUsuario="caapeeps" nome="Caroline Oliveira"/>
-      <Sugestoes/>
-      <Links/>
-      <Copyright/>
+      <div>
+        <Usuario imagem="caapeeps" nomeUsuario="caapeeps" nome="Caroline Oliveira"/>
+        <Sugestoes/>
+        <Links/>
+        <Copyright/>
+      </div>
     </div>
   );
 }
@@ -26,27 +28,27 @@ function Sugestoes(){
     {
       imagem: "zayn",
       nomeUsuario: "zayn",
-      reason: "Segue você"
+      razao: "Segue você"
     },
     {
       imagem: "littlemix",
       nomeUsuario: "littlemix",
-      reason: "Segue você"
+      razao: "Segue você"
     },
     {
       imagem: "jamesbaymusic",
       nomeUsuario: "jamesbaymusic",
-      reason: "Novo no Instagram"
+      razao: "Novo no Instagram"
     },
     {
       imagem: "gloriagroove",
       nomeUsuario: "gloriagroove",
-      reason: "Novo no Instagram"
+      razao: "Novo no Instagram"
     },
     {
       imagem: "officialqueenmusic",
       nomeUsuario: "officialqueenmusic",
-      reason: "Segue você"
+      razao: "Segue você"
     },
   ]
   return(
@@ -60,21 +62,21 @@ function Sugestoes(){
           <Perfil
             imagem={perfil.imagem}
             nomeUsuario={perfil.nomeUsuario}
-            reason={perfil.reason}
+            razao={perfil.razao}
           />
         ))}
       </div>
   );
 }
 
-function Perfil({imagem, nomeUsuario, reason}){
+function Perfil({imagem, nomeUsuario, razao}){
   return(
     <div class="sugestao">
       <div class="usuario">
         <img src={`assets/img/icons/${imagem}.jpg`} alt={`${nomeUsuario}`}/>
         <div class="texto">
-          <div class="nome">{nomeUsuario}</div>
-            <div class="razao">{reason}</div>
+          <div class="nome"><strong>{nomeUsuario}</strong></div>
+          <div class="razao">{razao}</div>
         </div>
       </div>
       <div class="seguir">Seguir</div>
