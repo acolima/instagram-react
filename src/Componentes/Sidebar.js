@@ -19,7 +19,7 @@ function Usuario({imagem, nomeUsuario, nome}){
           <strong>{nomeUsuario}</strong>
           {nome}
         </div>
-      </div>
+    </div>
   );
 }
 

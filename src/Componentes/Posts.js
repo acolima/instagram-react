@@ -3,15 +3,15 @@ import Post from "./Post"
 export default function Posts(){
   const posts = [
     {
-      imagemPerfil: "nbcbrooklyn99.jpg",
+      imagemPerfil: "nbcbrooklyn99",
       nomeUsuario: "nbcbrooklyn99", 
       post: "nbcbrooklyn99",
       curtidoPor: "nbc",
       curtidas: "519.765",
-      tipo: "imagem"
+      tipo: "imagem",
     },
     {
-      imagemPerfil: "sexeducation.jpg", 
+      imagemPerfil: "sexeducation", 
       nomeUsuario: "sexeducation", 
       post: "sexeducation",
       curtidoPor: "netflix",
@@ -19,7 +19,7 @@ export default function Posts(){
       tipo: "imagem"
     },
     {
-      imagemPerfil: "zoeysplaylist.jpg", 
+      imagemPerfil: "zoeysplaylist", 
       nomeUsuario: "zoeysplaylist", 
       post: "zoeysplaylist",
       curtidoPor: "nbc",
@@ -27,7 +27,7 @@ export default function Posts(){
       tipo: "imagem"
     },
     {
-      imagemPerfil: "nbcthegoodplace.jpg", 
+      imagemPerfil: "nbcthegoodplace", 
       nomeUsuario: "nbcthegoodplace", 
       post: "nbcthegoodplace",
       curtidoPor: "nbc",
@@ -35,7 +35,7 @@ export default function Posts(){
       tipo: "imagem"
     },
     {
-      imagemPerfil: "strangerthingstv.jpg", 
+      imagemPerfil: "strangerthingstv", 
       nomeUsuario: "strangerthingstv", 
       post: "strangerthingstv",
       curtidoPor: "netflix",
@@ -43,7 +43,7 @@ export default function Posts(){
       tipo: "imagem"
     },
     {
-      imagemPerfil: "lockeandkeynetflix.jpg", 
+      imagemPerfil: "lockeandkeynetflix", 
       nomeUsuario: "lockeandkeynetflix", 
       post: "lockeandkeynetflix",
       curtidoPor: "netflix",
@@ -51,7 +51,7 @@ export default function Posts(){
       tipo: "imagem"
     },
     {
-      imagemPerfil: "howtogetawaywithmurder.jpg", 
+      imagemPerfil: "howtogetawaywithmurder", 
       nomeUsuario: "howtogetawaywithmurder", 
       post: "howtogetawaywithmurder",
       curtidoPor: "abc",

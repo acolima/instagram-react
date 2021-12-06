@@ -1,13 +1,13 @@
 export default function Stories(){
   const stories = [
-    {imagem: "driven.education.jpg", nomeUsuario: "driven.education"},
-    {imagem: "harrystyles.jpg", nomeUsuario: "harrystyles"},
-    {imagem: "dojacat.jpg", nomeUsuario: "dojacat"},
-    {imagem: "imaginedragons.jpg", nomeUsuario: "imaginedragons"},
-    {imagem: "niallhoran.jpg", nomeUsuario: "niallhoran"},
-    {imagem: "george_ezra.jpg", nomeUsuario: "george_ezra"},
-    {imagem: "silksonic.jpg", nomeUsuario: "silksonic"},
-    {imagem: "lizzobeeating.jpg", nomeUsuario: "lizzobeeating"},
+    {imagem: "driven.education", nomeUsuario: "driven.education"},
+    {imagem: "harrystyles", nomeUsuario: "harrystyles"},
+    {imagem: "dojacat", nomeUsuario: "dojacat"},
+    {imagem: "imaginedragons", nomeUsuario: "imaginedragons"},
+    {imagem: "niallhoran", nomeUsuario: "niallhoran"},
+    {imagem: "george_ezra", nomeUsuario: "george_ezra"},
+    {imagem: "silksonic", nomeUsuario: "silksonic"},
+    {imagem: "lizzobeeating", nomeUsuario: "lizzobeeating"},
   ]
   
   return(
@@ -27,7 +27,7 @@ function Story({imagem, nomeUsuario}){
   return(
     <div class="story">
       <div class="imagem">
-        <img src={`assets/img/icons/${imagem}`} alt={`${nomeUsuario}`}/>
+        <img src={`assets/img/icons/${imagem}.jpg`} alt={`${nomeUsuario}`}/>
       </div>
       <div class="usuario">
         {nomeUsuario}

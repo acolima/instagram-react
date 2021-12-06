@@ -12,7 +12,7 @@ function Topo({imagemPerfil, nomeUsuario}){
 	return(
   	<div class="topo">
     	<div class="usuario">
-      	<img src={`assets/img/icons/${imagemPerfil}`} alt={nomeUsuario}/>
+      	<img src={`assets/img/icons/${imagemPerfil}.jpg`} alt={nomeUsuario}/>
         {nomeUsuario}
       </div>
       <div class="acoes">

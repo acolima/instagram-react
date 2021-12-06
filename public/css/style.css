@@ -222,6 +222,7 @@ body {
 .sidebar > div .usuario {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .sidebar > div .usuario img {
